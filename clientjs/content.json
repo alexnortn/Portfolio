@@ -619,16 +619,16 @@
             },
             "meta" : {
                 "Client" : "Google",
-                "Year" : 2019,
+                "Year" : 2021,
                 "Role" : "Product Designer",
                 "Team" : "Google People + AI Research",
                 "Discipline" : "Product Designer",
-                "Medium" : "AI Guidebook",
-                "Technologies": "Machine Learning",
-                "Duration" : "2 years"
+                "Medium" : "Presentation",
+                "Technologies": "HCAI",
+                "Duration" : "3 Months"
             },
-            "image_hero": "images/projects/pair/hi-res/pair-hero.jpg",
-            "image_preview": "images/projects/pair/hi-res/pair-2.jpg",
+            "image_hero": "images/projects/relational_design/hi-res/relational_design-1.jpg",
+            "image_preview": "images/projects/relational_design/hi-res/relational_design-11.jpg",
             "sections" : [
                 {
                     "name" : "endeavorImage100vw",
@@ -643,14 +643,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-1.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-1.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-1.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-1.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-1.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-1.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-1.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-1.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-1.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-1.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -667,14 +667,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-2.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-2.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-2.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-2.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-2.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-2.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-2.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-2.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-2.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-2.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -691,14 +691,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-3.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-3.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-3.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-3.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-3.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-3.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-3.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-3.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-3.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-3.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -715,14 +715,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-4.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-4.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-4.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-4.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-4.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-4.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-4.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-4.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-4.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-4.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -739,14 +739,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-5.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-5.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-5.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-5.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-5.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-5.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-5.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-5.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-5.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-5.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -763,14 +763,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-6.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-6.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-6.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-6.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-6.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-6.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-6.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-6.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-6.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-6.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -787,14 +787,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-7.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-7.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-7.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-7.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-7.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-7.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-7.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-7.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-7.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-7.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -811,14 +811,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-8.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-8.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-8.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-8.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-8.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-8.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-8.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-8.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-8.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-8.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -835,14 +835,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-9.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-9.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-9.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-9.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-9.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-9.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-9.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-9.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-9.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-9.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -859,14 +859,14 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-10.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-10.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-10.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-10.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-10.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-10.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-10.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-10.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-10.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-10.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
@@ -883,14 +883,86 @@
                             "caption" : ""
                         },
                         "image" : {
-                            "name": "People + AI Guidebook",
-                            "src": "images/projects/pair/standard/pair-11.jpg",
-                            "src_standard": "images/projects/pair/standard/pair-11.jpg",
-                            "src_retina": "images/projects/pair/retina/pair-11.jpg",
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-11.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-11.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-11.jpg",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/pair-11.jpg",
-                            "src_preview": "images/projects/pair/hi-res/pair-11.jpg",
-                            "caption": "People + AI Guidebook"
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-11.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-11.jpg",
+                            "caption": "Relational Design"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-12.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-12.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-12.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-12.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-12.jpg",
+                            "caption": "Relational Design"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-13.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-13.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-13.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-13.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-13.jpg",
+                            "caption": "Relational Design"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "Relational Design",
+                            "src": "images/projects/pair/standard/relational_design-14.jpg",
+                            "src_standard": "images/projects/pair/standard/relational_design-14.jpg",
+                            "src_retina": "images/projects/pair/retina/relational_design-14.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/relational_design-14.jpg",
+                            "src_preview": "images/projects/pair/hi-res/relational_design-14.jpg",
+                            "caption": "Relational Design"
                         }
                     }
                 },
