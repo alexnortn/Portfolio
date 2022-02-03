@@ -598,6 +598,331 @@
             ]
         },
         {
+            "route" :"relational-design",
+            "name" : "Relational Design",
+            "project_type" : "Project",
+            "preview" :"relational-design",
+            "year" : "2021",    
+            "medium": [
+                "SXSW Presentation, HCAI"
+            ],
+            "technique": [
+                "Product Design",
+                "Design Research",
+                "Machine Learning",
+                "Human-centered"
+            ],
+            "description" : {
+                "quote": "Examining the possibility of systems, lateral thinking, and the role of storytelling in futurecasting for assistive products and features.",
+                "brief": "Human-centered design shifted designers from a fascination with things to people and brought design thinking, empathy and humanity into the mainstream of product and program development after mass industrialization. With globalization, an unflinching focus on consumers, and the emergence of exponential technologies like AI making the world increasingly complex, has this conception of design centered on humans run its course?",
+                "challenge": "There's a growing mindset that centering on individual and consumerism in design has gone too far. How do we combat this, and what's next for design? This talk will dive into another idea, going back to the relational aesthetics movement and thinking deeply about group participation and the role of the user, and why it is essential with the growth of technologies."
+            },
+            "meta" : {
+                "Client" : "Google",
+                "Year" : 2019,
+                "Role" : "Product Designer",
+                "Team" : "Google People + AI Research",
+                "Discipline" : "Product Designer",
+                "Medium" : "AI Guidebook",
+                "Technologies": "Machine Learning",
+                "Duration" : "2 years"
+            },
+            "image_hero": "images/projects/pair/hi-res/pair-hero.jpg",
+            "image_preview": "images/projects/pair/hi-res/pair-2.jpg",
+            "sections" : [
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-1.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-1.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-1.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-1.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-1.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-2.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-2.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-2.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-2.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-2.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-3.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-3.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-3.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-3.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-3.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImageFS",
+                    "data" : {
+                        "class" : "endeavor-item-top-125 endeavor-width-100-prcnt endeavor-border-32-responsive endeavor-pos-rel",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-4.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-4.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-4.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-4.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-4.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImageFS",
+                    "data" : {
+                        "class" : "endeavor-item-top-125 endeavor-width-100-prcnt endeavor-border-32-responsive endeavor-pos-rel",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-5.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-5.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-5.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-5.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-5.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-125",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-6.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-6.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-6.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-6.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-6.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-7.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-7.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-7.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-7.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-7.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-8.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-8.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-8.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-8.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-8.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-9.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-9.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-9.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-9.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-9.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-10.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-10.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-10.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-10.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-10.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorImage100vw",
+                    "data" : {
+                        "class" : "endeavor-item-top-25-responsive",
+                        "placeholder" : {
+                            "name" : "",
+                            "src" : "",
+                            "src" : "",
+                            "src_mobile" : "",
+                            "src_preview" : "",
+                            "caption" : ""
+                        },
+                        "image" : {
+                            "name": "People + AI Guidebook",
+                            "src": "images/projects/pair/standard/pair-11.jpg",
+                            "src_standard": "images/projects/pair/standard/pair-11.jpg",
+                            "src_retina": "images/projects/pair/retina/pair-11.jpg",
+                            "src_low": "images/empty.gif",
+                            "src_mobile": "images/projects/pair/hi-res/pair-11.jpg",
+                            "src_preview": "images/projects/pair/hi-res/pair-11.jpg",
+                            "caption": "People + AI Guidebook"
+                        }
+                    }
+                },
+                {
+                    "name" : "endeavorParagraph",
+                    "data" : {
+                        "header" : "Learn more",
+                        "class" : "endeavor-item-top-125",
+                        "bgColor" : "",
+                        "description" : ""
+                    }
+                },
+                {
+                    "name" : "endeavorGhostButtonURL",
+                    "data" : {
+                        "class" : "endeavor-item-bottom-125 endeavor-text-left",
+                        "text" : "View live",
+                        "align" : "",
+                        "id" : "museum-live",
+                        "url" : "https://pair.withgoogle.com/guidebook/",
+                        "textColor" : "#1a1a1a"
+                    }
+                },
+                {
+                    "name" : "endeavorPad",
+                    "data" : {
+                        "class" : "endeavor-height-200px-responsive endeavor-item-no-margin endeavor-height-10vw"
+                    }
+                }
+            ]
+        },
+        {
             "route" :"museum-project",
             "name"  : "Museum",
             "project_type"  : "Case Study",
@@ -2558,6 +2883,7 @@
                 "Client" : "Ideas in Action",
                 "Year" : 2017,
                 "Role" : "Design Director",
+                "Team" : "Annie Zeng",
                 "Discipline" : "Art direction",
                 "Medium" : "Digital design",
                 "Technologies": "Visual design, computational design",
