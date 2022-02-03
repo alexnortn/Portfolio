@@ -627,8 +627,8 @@
                 "Technologies": "HCAI",
                 "Duration" : "3 Months"
             },
-            "image_hero": "images/projects/relational_design/hi-res/relational_design-1.jpg",
-            "image_preview": "images/projects/relational_design/hi-res/relational_design-11.jpg",
+            "image_hero": "images/projects/relational-design/hi-res/relational_design-hero.png",
+            "image_preview": "images/projects/relational-design/hi-res/relational_design-preview.png",
             "sections" : [
                 {
                     "name" : "endeavorImage100vw",
@@ -644,12 +644,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-1.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-1.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-1.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-1.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-1.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-1.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-1.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-1.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-1.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-1.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -668,12 +668,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-2.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-2.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-2.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-2.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-2.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-2.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-2.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-2.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-2.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-2.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -692,12 +692,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-3.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-3.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-3.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-3.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-3.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-3.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-3.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-3.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-3.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-3.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -716,12 +716,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-4.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-4.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-4.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-4.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-4.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-4.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-4.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-4.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-4.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-4.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -740,12 +740,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-5.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-5.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-5.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-5.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-5.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-5.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-5.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-5.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-5.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-5.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -764,12 +764,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-6.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-6.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-6.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-6.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-6.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-6.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-6.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-6.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-6.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-6.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -788,12 +788,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-7.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-7.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-7.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-7.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-7.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-7.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-7.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-7.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-7.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-7.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -812,12 +812,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-8.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-8.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-8.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-8.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-8.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-8.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-8.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-8.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-8.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-8.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -836,12 +836,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-9.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-9.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-9.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-9.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-9.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-9.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-9.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-9.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-9.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-9.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -860,12 +860,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-10.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-10.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-10.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-10.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-10.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-10.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-10.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-10.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-10.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-10.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -884,12 +884,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-11.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-11.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-11.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-11.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-11.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-11.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-11.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-11.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-11.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-11.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -908,12 +908,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-12.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-12.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-12.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-12.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-12.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-12.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-12.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-12.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-12.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-12.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -932,12 +932,12 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-13.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-13.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-13.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-13.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-13.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-13.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-13.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-13.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-13.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-13.png",
                             "caption": "Relational Design"
                         }
                     }
@@ -956,34 +956,14 @@
                         },
                         "image" : {
                             "name": "Relational Design",
-                            "src": "images/projects/pair/standard/relational_design-14.jpg",
-                            "src_standard": "images/projects/pair/standard/relational_design-14.jpg",
-                            "src_retina": "images/projects/pair/retina/relational_design-14.jpg",
+                            "src": "images/projects/relational-design/standard/relational_design-14.png",
+                            "src_standard": "images/projects/relational-design/standard/relational_design-14.png",
+                            "src_retina": "images/projects/relational-design/retina/relational_design-14.png",
                             "src_low": "images/empty.gif",
-                            "src_mobile": "images/projects/pair/hi-res/relational_design-14.jpg",
-                            "src_preview": "images/projects/pair/hi-res/relational_design-14.jpg",
+                            "src_mobile": "images/projects/relational-design/hi-res/relational_design-14.png",
+                            "src_preview": "images/projects/relational-design/hi-res/relational_design-14.png",
                             "caption": "Relational Design"
                         }
-                    }
-                },
-                {
-                    "name" : "endeavorParagraph",
-                    "data" : {
-                        "header" : "Learn more",
-                        "class" : "endeavor-item-top-125",
-                        "bgColor" : "",
-                        "description" : ""
-                    }
-                },
-                {
-                    "name" : "endeavorGhostButtonURL",
-                    "data" : {
-                        "class" : "endeavor-item-bottom-125 endeavor-text-left",
-                        "text" : "View live",
-                        "align" : "",
-                        "id" : "museum-live",
-                        "url" : "https://pair.withgoogle.com/guidebook/",
-                        "textColor" : "#1a1a1a"
                     }
                 },
                 {
