@@ -15,7 +15,7 @@
     "debug": "~2.1.1",
     "del": "^1.2.0",
     "errorhandler": "^1.4.3",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "express-session": "^1.13.0",
     "fastclick": "*",
     "font-awesome": "^4.7.0",
