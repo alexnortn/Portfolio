@@ -33,7 +33,7 @@
     "node.extend": "^1.1.5",
     "p5": "*",
     "propagating-hammerjs": "^1.4.3",
-    "pug": "^2.0.0-beta5",
+    "pug": "^3.0.1",
     "pug-runtime": "^2.0.2",
     "requirejs": "^2.2.0",
     "serve-favicon": "^2.2.1",
