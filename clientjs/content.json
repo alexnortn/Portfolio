@@ -7922,9 +7922,9 @@
     ],
     "bios_text": {
         "title": "Product · Innovation · Strategy",
-        "description_pull": "Alex Norton (he/him) is a Product Manager at <a href=https://deepmind.google/target='_blank' rel='noopener noreferrer'>Google DeepMind</a> where he leads (0–1) research/innovation teams focused on HCI, personalization, adaptivity, and reasoning.",
+        "description_pull": "Alex Norton is a Product Manager at <a href=https://deepmind.google/target='_blank' rel='noopener noreferrer'>Google DeepMind</a> where he leads research teams focused on HCI, personalization, adaptivity, and reasoning.",
         "description_short": "<br>He is co-founder of Google’s People + AI Guidebook and has mentored startups on the intersection of business, AI, and design by examining the potential of emerging AI research through a people-centered approach to responsible innovation.",
-        "description_long" : "He is co-founder of Google’s People + AI Guidebook and has mentored startups on the intersection of business, AI, and design by examining the potential of emerging AI research through a people-centered approach to responsible innovation.<br><br>Previously, he’s led design at Google Travel for AI-powered trip-planning. His visualizations have been featured at TED, Tribeca Film Festival, and in Times Square NYC. His work has appeared in Wired magazine, the New York Times, and in Nature and Cell scientific journals.<br><br> When not designing, you can find him in search of the perfect breeze, sailing <a href=https://photos.app.goo.gl/gvcn77FywQ9MNctM8 target='_blank' rel='noopener noreferrer'>FSS Apogee</a> out of Boston Harbor.<br><br>",
+        "description_long" : "He is co-founder of Google’s People + AI Guidebook and has mentored startups on the intersection of business, AI, and design by examining the potential of emerging AI research through a people-centered approach to responsible innovation.<br><br>Previously, he’s led design at Google Travel for AI-powered trip-planning. His visualizations have been featured at TED, Tribeca Film Festival, and in Times Square NYC. His work has appeared in Wired magazine, the New York Times, and in Nature and Cell scientific journals.<br><br> When not dreaming about the future, you might find him in search of the perfect breeze, sailing <a href=https://photos.app.goo.gl/gvcn77FywQ9MNctM8 target='_blank' rel='noopener noreferrer'>Apogee</a> from Boston Harbor.<br><br>",
         "link_1": "bios",
         "link_2": "resume",
         "link_3": "works"
@@ -8023,10 +8023,10 @@
         "cta": "Let's Talk.",
         "email": "alexnortn@gmail.com",
         "x": "alexnortn@",
-        "copywrite": "2025 Alex David Norton"
+        "copywrite": "2025 Alex Norton"
     },
     "welcome_text": {
-        "greeting_text": "I'm Alex David Norton,",
+        "greeting_text": "I'm Alex Norton,",
         "discipline_text": "Product Manager",
         "greeting_morning": "Good Morning, ",
         "greeting_afternoon": "Good Afternoon, ",
