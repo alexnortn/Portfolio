@@ -7922,9 +7922,9 @@
     ],
     "bios_text": {
         "title": "Product · Innovation · Strategy",
-        "description_pull": "Hello, I'm a product designer building the future of travel planning at <a href=https://www.google.com/travel/ target='_blank' rel='noopener noreferrer'>Google</a>.",
-        "description_short": "<br>Driven by a passion for innovation and cross disciplinary collaboration, I see the world through the lens of design. My work focuses on the intersection of people and technology, weaving lessons from natural systems into creative solutions, delightful interactions, and computational models.",
-        "description_long" : "I'm a Product Designer on Google Travel where I craft assistive and accessible tools for travel planning. I'm a contributor to Google’s People + AI Guidebook and have mentored startups on the intersection of business, AI, and design.<br><br>My visualizations have been featured at TED, Tribeca Film Festival, and in Times Square NYC. And my work has appeared in Wired magazine, the New York Times, and in Nature and Cell scientific journals.<br><br> When not designing, you can find me in search of the perfect breeze, sailing <a href=https://photos.app.goo.gl/gvcn77FywQ9MNctM8 target='_blank' rel='noopener noreferrer'>FSS Apogee</a> out of Boston Harbor <br><br>",
+        "description_pull": "Alex Norton (he/him) is a Product Manager at <a href=https://deepmind.google/target='_blank' rel='noopener noreferrer'>Google DeepMind</a> where he leads (0–1) research/innovation teams focused on HCI, personalization, adaptivity, and reasoning.",
+        "description_short": "<br>He is co-founder of Google’s People + AI Guidebook and has mentored startups on the intersection of business, AI, and design by examining the potential of emerging AI research through a people-centered approach to responsible innovation.",
+        "description_long" : "He is co-founder of Google’s People + AI Guidebook and has mentored startups on the intersection of business, AI, and design by examining the potential of emerging AI research through a people-centered approach to responsible innovation.<br><br>Previously, he’s led design at Google Travel for AI-powered trip-planning. His visualizations have been featured at TED, Tribeca Film Festival, and in Times Square NYC. His work has appeared in Wired magazine, the New York Times, and in Nature and Cell scientific journals.<br><br> When not designing, you can find him in search of the perfect breeze, sailing <a href=https://photos.app.goo.gl/gvcn77FywQ9MNctM8 target='_blank' rel='noopener noreferrer'>FSS Apogee</a> out of Boston Harbor.<br><br>",
         "link_1": "bios",
         "link_2": "resume",
         "link_3": "works"
@@ -8019,15 +8019,15 @@
     ],
     "contact": {
         "shout_out": "Interested in working together or simply meeting up?",
-        "shout_out_sub": "I love sharing adventures, discovering new design, and exploring emerging technology—especially AI.",
+        "shout_out_sub": "I love sharing adventures, discovering new products, design, and exploring emerging technology—especially AI.",
         "cta": "Let's Talk.",
         "email": "alexnortn@gmail.com",
-        "phone": "774 766 1179",
-        "copywrite": "2021 Alex Norton"
+        "x": "alexnortn@",
+        "copywrite": "2025 Alex David Norton"
     },
     "welcome_text": {
-        "greeting_text": "I'm Alex Norton,",
-        "discipline_text": "Product Designer",
+        "greeting_text": "I'm Alex David Norton,",
+        "discipline_text": "Product Manager",
         "greeting_morning": "Good Morning, ",
         "greeting_afternoon": "Good Afternoon, ",
         "greeting_evening": "Good Evening, "
