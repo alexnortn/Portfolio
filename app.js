@@ -15,7 +15,7 @@ let routes = require('./routes/index');
 let app = express();
 
 // All environments
-var PORT = process.env.PORT || 2700;
+var PORT = process.env.PORT || 3000;
 
 app.set('port', PORT);
 
@@ -39,9 +39,5 @@ app.use(express.static(path.join(__dirname, 'public'))); // What is this pointin
 
 app.use('/', routes);
 app.use('*', routes); // Could be a little hacky ->  route all unknown to index
-
-http.createServer(app).listen(app.get('port'), function(){
-  console.log('666 Summenor Listening on port ' + app.get('port'));
-});
 
 module.exports = app;

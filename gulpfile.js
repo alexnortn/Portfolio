@@ -13,11 +13,17 @@ let argv = require('yargs').argv,
     browserify = require('browserify'),
     cleanCss = require('gulp-clean-css'),
     autoprefixer = require('gulp-autoprefixer'),
+    rsync = require('gulp-rsync'),
     print = require('gulp-print'),
     sourcemaps = require('gulp-sourcemaps'),
+    runSequence = require('run-sequence'),
     babel = require("gulp-babel"),
+    shell = require('gulp-shell'),
+    GulpSSH = require('gulp-ssh'),
+    //sprite = require('gulp-node-spritesheet'),
     source = require('vinyl-source-stream'),
     buffer = require('vinyl-buffer'),
+    gutil = require('gulp-util'),
     babelify = require('babelify'),
     browserify_shim = require('browserify-shim');
 
@@ -31,24 +37,24 @@ let BASEURL = argv.production
     : '';
 
 
-// Tasks will be defined below, build task at the end
+gulp.task('default', ['build']);
+
+// Removed "pug"
+gulp.task('build', [ 'images', 'js', 'css', 'fonts', 'plugins']);
 
 
-gulp.task('images', gulp.parallel(
-    function copyImages() {
-        return gulp
-            .src('./assets/images/**')
-            .pipe(gulp.dest('./public/images/'));
-    },
-    function copyFavicons() {
-        return gulp
-            .src('./assets/favicon*')
-            .pipe(gulp.dest('./public/'));
-    }
-));
+gulp.task('images', [ ], function () {
+    gulp
+        .src('./assets/images/**')
+        .pipe(gulp.dest('./public/images/'));
+
+    gulp
+        .src('./assets/favicon*')
+        .pipe(gulp.dest('./public/'));
+});
 
 gulp.task('clean', function () {
-    return del([   
+    del([   
         './public/**'
     ]);
 });
@@ -89,78 +95,78 @@ gulp.task('js', function () {
 
 });
 
-gulp.task('css', function () {
-    return gulp.src([
-        'assets/css/normalize.styl',
-        'assets/css/main.styl'
+gulp.task('css', [ ], function () {
+    gulp.src([
+        'assets/css/normalize.css',
+        'assets/css/main.styl',
+        'assets/css/*.css',
     ])
         .pipe(concat('all.styl'))
         .pipe(stylus())
         .pipe(replace(/\$GULP_BASE_URL/g, BASEURL))
         .pipe(autoprefixer({
-            overrideBrowserslist: ["> 1%", "last 2 versions", "Firefox ESR"]
+            browser: "> 1%, last 2 versions, Firefox ESR"
         }))
         .pipe(cleanCss())
-        .pipe(gulp.dest('./public/css/'));
+        .pipe(gulp.dest('./public/css/'))
 });
 
 gulp.task('fonts', function () {
-    return gulp.src([
+    gulp.src([
         'assets/fonts/**'
     ])
-        .pipe(gulp.dest('./public/fonts/'));
-});
+        .pipe(gulp.dest('./public/fonts/'))
+})
 
 gulp.task('plugins', function () {
-    return gulp.src([
+    gulp.src([
         'assets/plugins/**'
     ])
-        .pipe(gulp.dest('./public/plugins/'));
-});
+        .pipe(gulp.dest('./public/plugins/'))
+})
 
 gulp.task('watch', function () {
     gulp.watch([
+        'assets/animations/**'
+    ], [ 'animations' ]);
+
+    gulp.watch([
         'assets/fonts/**'
-    ], gulp.series('fonts'));
+    ], [ 'fonts' ]);
 
     gulp.watch([
         'assets/plugins/**'
-    ], gulp.series('plugins'));
+    ], [ 'plugins' ]);
 
     gulp.watch([
         'assets/css/*'
-    ], gulp.series('css'));
+    ], [ 'css' ]);
 
     gulp.watch([
         'assets/images/**'
-    ], gulp.series('images'));
+    ], [ 'images' ]);
 
     gulp.watch([
         'clientjs/**',
         'components/**'
-    ], gulp.series('js'));
+    ], [ 'js' ]);
 
     gulp.watch([
         'views/**',
-    ], gulp.series('pug'));
+    ], [ 'pug' ]);
 });
 
 // Only CSS + PUG + IMAGES (conserve juice)
 gulp.task('watch-lite', function () {
     gulp.watch([
         'assets/css/*'
-    ], gulp.series('css'));
+    ], [ 'css' ]);
 
     gulp.watch([
         'assets/images/**'
-    ], gulp.series('images'));
+    ], [ 'images' ]);
 
     gulp.watch([
         'views/**',
-    ], gulp.series('pug'));
+    ], [ 'pug' ]);
 });
-
-// Build task with parallel execution
-gulp.task('build', gulp.parallel('images', 'js', 'css', 'fonts', 'plugins'));
-
-gulp.task('default', gulp.series('build'));

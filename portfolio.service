@@ -1,0 +1,22 @@
+[Unit]
+Description=design.alexnortn.com: The Designer's Portfolio
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/Portfolio
+Environment=APPENV=PRODUCTION
+Environment=PORT=3000
+ExecStart=/usr/bin/node bin/www
+Restart=on-failure
+RestartSec=10
+User=ubuntu
+LimitNOFILE=4096
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=portfolio
+
+[Install]
+WantedBy=multi-user.target
