@@ -2,7 +2,7 @@
 
 Alex Norton
 a^N 
-http://alexnortn.com
+https://design.alexnortn.com
 
 */
 
@@ -259,7 +259,13 @@ $(document).ready(function() {
 
         function videoControl(elem) {
             if ($(elem).is(":in-viewport")) {
-                $(elem)[0].play();
+                const playPromise = $(elem)[0].play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        // Auto-play was prevented
+                        console.log('Video autoplay prevented:', error);
+                    });
+                }
             }
             else {
                 $(elem)[0].pause();

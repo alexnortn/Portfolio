@@ -1,6 +1,6 @@
 // Alex Norton
 // a^N 
-// http://alexnortn.com
+// https://design.alexnortn.com
 
 
 "use strict";
@@ -107,7 +107,7 @@ let glyph = function (p) {
 
 	// Resolve before sketch runs
 	p.preload = function() {
-		glyph_obj.img = p.loadImage("../images/logo-main.png");
+		glyph_obj.img = p.loadImage("/images/logo-main.png");
 	}
 
 	p.setup = function() {
