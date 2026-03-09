@@ -1,81 +1,58 @@
 
-
 "use strict";
 
-let argv = require('yargs').argv,
-    gulp = require('gulp'),
-    concat = require('gulp-concat'),
-    include = require('gulp-include'),
-    pug = require('gulp-pug'), 
-    replace = require('gulp-replace'),
-    stylus = require('gulp-stylus'),
-    uglify = require('gulp-uglify'),
-    browserify = require('browserify'),
-    cleanCss = require('gulp-clean-css'),
-    autoprefixer = require('gulp-autoprefixer'),
-    rsync = require('gulp-rsync'),
-    print = require('gulp-print'),
-    sourcemaps = require('gulp-sourcemaps'),
-    runSequence = require('run-sequence'),
-    babel = require("gulp-babel"),
-    shell = require('gulp-shell'),
-    GulpSSH = require('gulp-ssh'),
-    //sprite = require('gulp-node-spritesheet'),
-    source = require('vinyl-source-stream'),
-    buffer = require('vinyl-buffer'),
-    gutil = require('gulp-util'),
-    babelify = require('babelify'),
-    browserify_shim = require('browserify-shim');
+const gulp = require('gulp');
+const { src, dest, series, parallel, watch } = gulp;
+const argv = require('yargs').argv;
+const concat = require('gulp-concat');
+const include = require('gulp-include');
+const pug = require('gulp-pug');
+const replace = require('gulp-replace');
+const stylus = require('gulp-stylus');
+const terser = require('gulp-terser');
+const browserify = require('browserify');
+const cleanCss = require('gulp-clean-css');
+const autoprefixer = require('gulp-autoprefixer');
+const sourcemaps = require('gulp-sourcemaps');
+const source = require('vinyl-source-stream');
+const buffer = require('vinyl-buffer');
+const babelify = require('babelify');
+const browserify_shim = require('browserify-shim');
+const del = require('del');
 
-let fs = require('fs');
-let del = require('del');
-let path = require('path');
-let extend = require('node.extend');
-
-let BASEURL = argv.production
+const BASEURL = argv.production
     ? 'https://design.alexnortn.com/'
     : '';
 
+// Clean task
+function clean() {
+    return del(['./public/**']);
+}
 
-gulp.task('default', ['build']);
+// Images task
+function images() {
+    src('./assets/favicon*')
+        .pipe(dest('./public/'));
 
-// Removed "pug"
-gulp.task('build', [ 'images', 'js', 'css', 'fonts', 'plugins']);
-
-
-gulp.task('images', [ ], function () {
-    gulp
-        .src('./assets/images/**')
-        .pipe(gulp.dest('./public/images/'));
-
-    gulp
-        .src('./assets/favicon*')
-        .pipe(gulp.dest('./public/'));
-});
-
-gulp.task('clean', function () {
-    del([   
-        './public/**'
-    ]);
-});
+    return src('./assets/images/**')
+        .pipe(dest('./public/images/'));
+}
 
 // Compile pug --> HTML
-gulp.task('pug', function() {
-    return gulp.src('views/**/*.pug')
+function pugTask() {
+    return src('views/**/*.pug')
         .pipe(pug({
             client: true,
         }))
-        // replace the function definition
         .pipe(replace('function template(locals)', 'module.exports = function(locals, pug)'))
-        .pipe(gulp.dest('./public/views_js'))
-});
+        .pipe(dest('./public/views_js'));
+}
 
-gulp.task('js', function () {
-    let b = browserify({
+// JavaScript task
+function js(done) {
+    const b = browserify({
         entries: 'clientjs/entry.js',
-        //debug: true,
-        // defining transforms here will avoid crashing your stream
-        transform: [ babelify, browserify_shim ],
+        transform: [babelify, browserify_shim],
     });
 
     let stream = b.bundle()
@@ -84,89 +61,75 @@ gulp.task('js', function () {
         .pipe(replace(/__BASE_URL/g, `'${BASEURL}'`));
 
     if (argv.production) {
-        stream
-            .pipe(sourcemaps.init())
-                .pipe(uglify())
-            .pipe(sourcemaps.write('./'))
+        stream = stream
+            .pipe(sourcemaps.init({ loadMaps: true }))
+            .pipe(terser())
+            .pipe(sourcemaps.write('./'));
     }
 
-    return stream
-        .pipe(gulp.dest('./public/js/'));
+    stream.pipe(gulp.dest('./public/js/'))
+        .on('end', done)
+        .on('error', done);
+}
 
-});
-
-gulp.task('css', [ ], function () {
-    gulp.src([
-        'assets/css/normalize.css',
+// CSS task
+function css() {
+    return src([
+        'assets/css/normalize.styl',
         'assets/css/main.styl',
         'assets/css/*.css',
-    ])
+    ], { allowEmpty: true })
         .pipe(concat('all.styl'))
         .pipe(stylus())
         .pipe(replace(/\$GULP_BASE_URL/g, BASEURL))
         .pipe(autoprefixer({
-            browser: "> 1%, last 2 versions, Firefox ESR"
+            overrideBrowserslist: ["> 1%", "last 2 versions", "Firefox ESR"]
         }))
         .pipe(cleanCss())
-        .pipe(gulp.dest('./public/css/'))
-});
+        .pipe(dest('./public/css/'));
+}
 
-gulp.task('fonts', function () {
-    gulp.src([
-        'assets/fonts/**'
-    ])
-        .pipe(gulp.dest('./public/fonts/'))
-})
+// Fonts task
+function fonts() {
+    return src('assets/fonts/**')
+        .pipe(dest('./public/fonts/'));
+}
 
-gulp.task('plugins', function () {
-    gulp.src([
-        'assets/plugins/**'
-    ])
-        .pipe(gulp.dest('./public/plugins/'))
-})
+// Plugins task
+function plugins() {
+    return src('assets/plugins/**')
+        .pipe(dest('./public/plugins/'));
+}
 
-gulp.task('watch', function () {
-    gulp.watch([
-        'assets/animations/**'
-    ], [ 'animations' ]);
+// Watch task
+function watchFiles() {
+    watch('assets/fonts/**', fonts);
+    watch('assets/plugins/**', plugins);
+    watch('assets/css/*', css);
+    watch('assets/images/**', images);
+    watch(['clientjs/**', 'components/**'], js);
+    watch('views/**', pugTask);
+}
 
-    gulp.watch([
-        'assets/fonts/**'
-    ], [ 'fonts' ]);
+// Watch lite task (CSS + PUG + IMAGES only)
+function watchLite() {
+    watch('assets/css/*', css);
+    watch('assets/images/**', images);
+    watch('views/**', pugTask);
+}
 
-    gulp.watch([
-        'assets/plugins/**'
-    ], [ 'plugins' ]);
+// Build task
+const build = parallel(images, js, css, fonts, plugins);
 
-    gulp.watch([
-        'assets/css/*'
-    ], [ 'css' ]);
-
-    gulp.watch([
-        'assets/images/**'
-    ], [ 'images' ]);
-
-    gulp.watch([
-        'clientjs/**',
-        'components/**'
-    ], [ 'js' ]);
-
-    gulp.watch([
-        'views/**',
-    ], [ 'pug' ]);
-});
-
-// Only CSS + PUG + IMAGES (conserve juice)
-gulp.task('watch-lite', function () {
-    gulp.watch([
-        'assets/css/*'
-    ], [ 'css' ]);
-
-    gulp.watch([
-        'assets/images/**'
-    ], [ 'images' ]);
-
-    gulp.watch([
-        'views/**',
-    ], [ 'pug' ]);
-});
+// Export tasks
+exports.clean = clean;
+exports.images = images;
+exports.pug = pugTask;
+exports.js = js;
+exports.css = css;
+exports.fonts = fonts;
+exports.plugins = plugins;
+exports.watch = watchFiles;
+exports['watch-lite'] = watchLite;
+exports.build = build;
+exports.default = build;

@@ -7,6 +7,8 @@ let express = require('express'),
     logger = require('morgan'),
     cookieParser = require('cookie-parser'),
     bodyParser = require('body-parser'),
+    compression = require('compression'),
+    helmet = require('helmet'),
     path = require('path'),
     http = require('http');
 
@@ -28,6 +30,13 @@ app.set('port', PORT);
 // view engine setup
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
+
+// Security middleware
+app.use(helmet({
+    contentSecurityPolicy: false, // Disabled - would break inline scripts/styles
+    crossOriginEmbedderPolicy: false, // Disabled - would break external resources
+}));
+app.use(compression());
 
 app.use(favicon(path.join(__dirname, 'public/images', 'favicon.ico')));
 
