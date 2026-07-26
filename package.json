@@ -28,9 +28,8 @@
     "lazysizes": "^3.0.0",
     "method-override": "^2.3.5",
     "morgan": "^1.10.1",
-    "multer": "^1.1.0",
     "node.extend": "^1.1.5",
-    "p5": "*",
+    "p5": "1.2.0",
     "propagating-hammerjs": "^1.4.3",
     "pug": "^2.0.0-beta5",
     "pug-runtime": "^2.0.2",
@@ -75,6 +74,10 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "yargs": "~5.0.0"
+  },
+  "overrides": {
+    "shell-quote": "^1.9.0",
+    "jquery": "^3.7.1"
   },
   "browserify-shim": {
     "jquery": "$"
